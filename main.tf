@@ -1,4 +1,5 @@
-provider "null" {}
+provider "null" {
+}
 
 resource "null_resource" "text" {
   count = 3
