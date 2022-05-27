@@ -2,7 +2,7 @@
 
 This repo contains Terraform configuration with null_resource that creates a random text using count meta-argument.
 
-Terraform can do simple math, so I have added "+1" to start the count from 1 instead of 0.
+Terraform can do simple math, so I have added "+1" inside the ${count.index} argument to start the count from 1 instead of 0.
 
 # Prerequisite
 This guide applies to Mac, for other OS it may vary. You need to have terraform CLI installed on you workstation. In the guide below, we will be using [homebrew](https://brew.sh/)
