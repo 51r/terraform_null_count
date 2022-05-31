@@ -5,24 +5,7 @@ This repo contains Terraform configuration with null_resource that creates a ran
 Terraform can do simple math, so I have added "+1" inside the ${count.index} argument to start the count from 1 instead of 0.
 
 # Prerequisite
-This guide applies to Mac, for other OS it may vary. You need to have terraform CLI installed on you workstation. In the guide below, we will be using [homebrew](https://brew.sh/)
-
-*  First, add the HashiCorp tap, a repository of all Hashicorp brew packages. 
-    ```
-    brew tap hashicorp/tap
-    ```
-* Now, install Terraform with hashicorp/tap/terraform.
-   ```
-   brew install hashicorp/tap/terraform
-   ```
-*  for any other OS click [here](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-
-**NOTE: This installs a signed binary and is automatically updated with every new official release.**
-
-* Check if Terraform is available with: 
-```
-terraform --version
-```
+You need to have [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli) installed on you workstation. 
 
 # How to use the repo
 
